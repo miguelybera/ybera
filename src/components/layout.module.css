@@ -1,19 +1,35 @@
 .container{
     margin: auto;
-    max-width: 500px;
+    max-width: 750px;
     font-family: sans-serif;
 }
 .heading {
     color: rebeccapurple;
   }
 .nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
   }
 .nav-link-item {
+  float: left;
     padding-right: 2rem;
   }
 .nav-link-text {
-    color: black;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   }
+.nav-link-text:hover{
+  background-color: #111;
+} 
+.site-title{
+  color:blue;
+  font-size: 5rem;
+  font-weight: 500;
+  background-color: red;
+  text-shadow:2px 2px black;
+}
